@@ -1,6 +1,9 @@
+body {
+  font-family: Verdana, Tahoma, Arial;
+}
+
 .container div {
   width: 100%;
-  border: 1px solid gray;
 }
 
 header,
@@ -24,24 +27,49 @@ article {
   overflow: hidden;
 }
 
-body {
-  font-family: Verdana, Tahoma, Arial;
-}
-
 #listaArticulos {
   width: 100%;
   height: 100%;
 }
 
-#tablaArtiuculos {
+table {
   margin: 0 auto;
+}
+
+#listaCateogoria {
+  padding: 1em;
+}
+
+#tablaArticulos {
   border-collapse: separate;
   border-spacing: 90px 30px;
   width: 90%;
 }
 
-.containerArticulo {
+#tablaArticulo tr td {
   height: 40px;
+}
+
+div.imagenArticulo {
+  float: left;
+  width: 40%;
+  overflow: hidden;
+  padding-left: 20px;
+}
+
+div.datosArticulo {
+  font-size: 0.7em;
+  overflow: hidden;
+}
+
+.botonComprar {
+  color: white;
+  border-radius: 4px;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+  background: rgb(28, 184, 65);
+  padding: 7px;
+  border: none;
+  outline: none;
 }
 
 nav ul {
@@ -62,28 +90,6 @@ nav li a {
 nav li a:hover {
   background-color: #555;
   color: white;
-}
-
-.botonComprar {
-  color: white;
-  border-radius: 4px;
-  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
-  background: rgb(28, 184, 65);
-  padding: 7px;
-  border: none;
-  outline: none;
-}
-
-.imagenArticulo {
-  float: left;
-  width: 40%;
-  overflow: hidden;
-  padding-left: 20px;
-}
-
-.datosArticulo {
-  font-size: 0.7em;
-  overflow: hidden;
 }
 
 select {
